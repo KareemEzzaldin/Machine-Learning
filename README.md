@@ -5,7 +5,7 @@ Problem Statement: We have two datasets (Financial Risk Assessment) and (Credit 
 Financial Risk Assessment: This dataset concerns predicting financial risk values as a function of a few financial features. Regression models are required to predict values that are in a continuous scale and our goal is to determine the most suitable algorithms in estimating these values with the least amount of error.
 Credit Card Fraud Detection: This dataset deals with binary classification of credit card transactions as fraudulent or legit. It requires classification models and has the problem associated with class imbalance, where fraudulent transactions are the minority.
 
-                                                                                                                Financial Risk Assessment Dataset	
+	Financial Risk Assessment Dataset	
 1- Data Exploration
 Dataset Overview:
  Number of samples: N (2000,37 ) rows & columns.
@@ -81,7 +81,7 @@ The MSE: 0.0016535189833153207
 With kernel='linear
 MSE value: 0.0015311276381386487
 
-                                                                                                            Credit Card Fraud Detection Dataset
+	Credit Card Fraud Detection Dataset
 
 Data Exploration: The dataset contains numerical features derived from credit card transactions. Initial analysis revealed a heavy imbalance in the Class target variable, with fraudulent cases being significantly underrepresented.
 Visualization: Approximately 0.17% of transactions are fraudulent, emphasizing the need of imbalance handling.
